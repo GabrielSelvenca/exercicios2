@@ -1,0 +1,14 @@
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\bin\Debug\net8.0\Exercícios_Pratica.exe
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\bin\Debug\net8.0\Exercícios_Pratica.deps.json
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\bin\Debug\net8.0\Exercícios_Pratica.runtimeconfig.json
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\bin\Debug\net8.0\Exercícios_Pratica.dll
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\bin\Debug\net8.0\Exercícios_Pratica.pdb
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\obj\Debug\net8.0\Exercícios_Pratica.GeneratedMSBuildEditorConfig.editorconfig
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\obj\Debug\net8.0\Exercícios_Pratica.AssemblyInfoInputs.cache
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\obj\Debug\net8.0\Exercícios_Pratica.AssemblyInfo.cs
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\obj\Debug\net8.0\Exercícios_Pratica.csproj.CoreCompileInputs.cache
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\obj\Debug\net8.0\Exercícios_Pratica.dll
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\obj\Debug\net8.0\refint\Exercícios_Pratica.dll
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\obj\Debug\net8.0\Exercícios_Pratica.pdb
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\obj\Debug\net8.0\Exercícios_Pratica.genruntimeconfig.cache
+C:\09_Projects\Praticar\Exercícios_Pratica\Exercícios_Pratica\obj\Debug\net8.0\ref\Exercícios_Pratica.dll
