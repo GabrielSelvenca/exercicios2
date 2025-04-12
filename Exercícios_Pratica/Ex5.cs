@@ -1,4 +1,4 @@
-﻿/*
+/*
     Dado dois arrays, retorne a intercalação entre eles (os elementos em comum entre
     os dois arrays, em qualquer ordem):
 
@@ -12,23 +12,44 @@ namespace Exercícios_Pratica
 {
     public class Ex5
     {
-        static Ex5()
+        static void Ex5()
         {
             int[] vetorA = { 1, 2, 2, 1 };
             int[] vetorB = { 2, 2 };
-
-            List<int> list = new List<int>();
-
-            foreach (int i in vetorA)
+        
+            int[] resultado = new int[Math.Min(vetorA.Length, vetorB.Length)]; // Pegando valor mínimo entre A e B
+            int count = 0;
+        
+            bool[] usados = new bool[vetorB.Length];
+        
+            for (int i = 0; i < vetorA.Length; i++)
             {
-                if (vetorB.Contains(i))
+                for (int j = 0; j < vetorB.Length; j++)
                 {
-                    list.Add(i);
+                    if (vetorA[i] == vetorB[j] && usados[j] == false)
+                    {
+                        resultado[count] = vetorA[i];
+                        count++;
+                        usados[j] = true;
+                        break;
+                    }
                 }
             }
-
-            int[] vetorIntercalado = list.ToArray();
-            Console.WriteLine(string.Join(", ", vetorIntercalado));
+        
+            if (count == 0)
+            {
+                Console.WriteLine("Nenhum número em comum.");
+            }
+            else
+            {
+                for (int i = 0; i < usados; i++)
+                {
+                    Console.Write(resultado[i]);
+                    if (i < count - 1)
+                        Console.Write(", ");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
